@@ -2,9 +2,6 @@ function solution(new_id) {
     let answer = '';
 
     
-    const pattern1 = /[!?@#$%^&*():;+=~{}<>\[\]\|\\\"\'\,\/\`\₩]/g;
-    const pattern2 = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
-    
     const pattern3 = /[^a-z0-9-\_\.]/g
     //1,2,3 단계
     new_id = new_id
@@ -61,7 +58,7 @@ function solution(new_id) {
     return answer;
 }
 
-//best
+// best
 // const solution = (new_id) => {
 //     const id = new_id
 //         .toLowerCase()
